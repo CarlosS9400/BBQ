@@ -1,8 +1,4 @@
 
-* {
-    /*border: 1px solid red;*/
-    box-sizing: border-box;
-}
 
 /* small screen by default */
 
@@ -12,6 +8,7 @@ body {
     font-family: serif;
     letter-spacing: 0.1em;
     font-size: 1rem;
+    line-height: 1.5em;
 }
 
 .container {
@@ -146,8 +143,9 @@ button {
     color: #F18119;
 }
 
+
 /* for larger screen */
-@media (min-width: 769px) {
+@media (min-width: 950px) {
     body {
         font-size: 1.125rem;
     }
@@ -169,17 +167,18 @@ button {
     main {
   
       height: 100vh;
-      padding: 0 3em;
+      padding: 0 0.5em;
+      margin: 0 0.5em;
  
     }
 
     header {
-        min-width: 65%;
+        width: 65%;
         
     }
 
     main {
-        min-width: 30%;
+        width: 30%;
     }
 
     h1 {
@@ -196,18 +195,32 @@ button {
     }
 
     .user-info {
-        min-width: 30%;
+        width: 80%;
         height: 100vh;
         justify-content: center;
     }
 
     .low-message {
+        
         margin-top: -15em;
         color: #F18119;
 
     }
 
+    .mid {
+      min-height: 3em;
+      line-height: 3em;
+
+    }
+
+   
+
 }
+
+
+
+
+
  
 
 
