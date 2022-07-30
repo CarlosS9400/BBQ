@@ -31,7 +31,7 @@ h1 {
 
     font-size: 2.25rem;
     margin-bottom: 3em;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -63,7 +63,7 @@ h2 {
 }
 
 h2 .description {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .small {
@@ -76,7 +76,7 @@ h2 .description {
     
     padding-top: 0;
     max-width: 80%;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.3em;
     margin: 0.1em auto 0.5em;
     
@@ -148,6 +148,7 @@ form {
 @media (min-width: 769px) {
     body {
         display: flex;
+        font-size: 1.125rem;
         
         min-width: 100%;
         min-height: 100vh;
@@ -182,8 +183,13 @@ form {
     }
 
     h1 {
-        
+        font-size: 3.5rem;
         margin: 2em auto 0.5em;
+
+    }
+
+    h2 {
+        font-size: 1.75rem;
 
     }
 
