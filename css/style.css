@@ -67,11 +67,17 @@ h1 {
 }
 
 .top-text {
-    margin: 1em auto 0;
+
+    margin: 0;
+    padding-top: 1em;
     width: 50%;
-    border-top: 2px solid #F18119;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, red, blue) 1;
     color: #F18119;
+    font-weight: 900;
     order: -1;
+
+    
 }
 
 .low-text {
