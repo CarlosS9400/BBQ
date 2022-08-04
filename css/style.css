@@ -166,12 +166,19 @@ form {
   font-family: inherit;
   text-align: inherit;
   font-size: 0.8rem;
-  max-width: 80%;
+  max-width:75%;
   border-radius: 10%;
 }
 
 .input {
     border: 1px solid #404040;
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.input:hover,
+.input:focus {
+    transform: scale(1.1);
 }
 
 .register-btn {
@@ -183,6 +190,10 @@ form {
     background: linear-gradient(to left,#ff713b ,#ffA51D);
     color: #fff;
     transition: color 500ms;
+
+    transform: scale(1);
+    transition: transform 500ms;
+
    
 }
 
@@ -190,6 +201,7 @@ form {
 .register-btn:focus {
     background: linear-gradient(to right,#ff713b ,#ffA51D);
     color: #404040;
+    transform: scale(1.1);
 
 }
 
