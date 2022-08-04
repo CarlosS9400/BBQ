@@ -17,12 +17,37 @@ body {
     background: url("../images/dark-ribs.jpg") no-repeat center center /cover;
     background-color: #404040;
 
+    padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+
     
-    margin-bottom: 0.5em auto;
-    min-width: 50%;
 }
+
+.container {
+
+    max-width: 70%;
+    /*background-color: grey;*/
+    /*border: 3px solid red;*/
+    
+    margin: 0 auto;
+}
+
+
+.container-intro {
+    
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    min-height: 50vh;
+    /*border: 1px solid red;*/
+
+}
+
 
 h1 {
 
@@ -30,6 +55,7 @@ h1 {
     margin-bottom: 2em;
     font-weight: 400;
     color: #fff;
+
 }
 
 .best-BBQ {
@@ -91,9 +117,10 @@ h2 {
 
 
 .user-info {
-   
+   padding: 2em 1em;
+
    margin: auto;
-   width: 100%;
+   
    
    
 }
@@ -123,28 +150,46 @@ form {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 80%;
+    /*border: 3px solid red;*/
+
+    margin: auto;
+
 }
 
 .input,
 .btn {
   margin: 0 auto 0.5em;
-  padding: 0.1em 0.5em;
   
-  text-align: center;
+  font-family: inherit;
+  text-align: inherit;
   font-size: 0.8rem;
   max-width: 90%;
   border-radius: 10%;
 }
 
+.input {
+    border: 1px solid #404040;
+}
+
 .register-btn {
-    padding: 0.2em 4em;
-    background: linear-gradient(to right,#ff713b ,#ffA51D);
-    padding-bottom: 0;
+    font-family: inherit;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 0.25em 4em;
+    cursor:pointer;
+    background: linear-gradient(to left,#ff713b ,#ffA51D);
+    color: #fff;
+    transition: color 500ms;
+   
 }
 
 .register-btn:hover,
 .register-btn:focus {
-    background: linear-gradient(to left,#ff713b ,#ffA51D)
+    background: linear-gradient(to right,#ff713b ,#ffA51D);
+    color: #404040;
 
 }
 
@@ -166,7 +211,9 @@ form {
     }
 
     .user-info {
-        padding-top: 3em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     
 
@@ -177,8 +224,8 @@ form {
 
     h1 {
         font-size: 3.5rem;
-        margin: 2em auto 0.5em;
-
+        padding: 0;
+        margin: 0;
     }
 
     h2 {
@@ -198,11 +245,7 @@ form {
         margin: 0;
     }
 
-    h2,
-    form,
-    .warning {
-        margin-top: 2em;
-    }
+    
 
     
 
@@ -221,37 +264,11 @@ form {
         
         width: 70%;
     }
+
+    .container-intro {
+        min-width: 60%;
+        height: 70%;
+    }
+
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-   
-
-   
-
-
-
-
-
-
-
- 
-
-
-
