@@ -14,8 +14,9 @@ body {
 }
 
 .intro {
-    background: url("../images/dark-ribs.jpg") no-repeat center center /cover;
-    background-color: #404040;
+    background: url("../images/ribs.jpg") no-repeat center center /cover, linear-gradient(yellow, orange);
+    background-color: grey;
+    background-blend-mode: multiply;
 
     padding: 0 .5em 2em;
     display: flex;
